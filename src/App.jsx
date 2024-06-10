@@ -1,7 +1,8 @@
-import React from 'react'
+// import { RouterProvider } from "react-router-dom";
+import MainRouter from "./router/MainRouter";
 
 const App = () => {
-  return <div>App</div>
-}
+  return <MainRouter />;
+};
 
-export default App
+export default App;
